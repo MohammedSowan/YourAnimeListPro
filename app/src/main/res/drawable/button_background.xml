@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient android:gradientRadius="50dp" android:startColor="@color/AzurLaneFirst"  android:endColor="@color/AzurLaneLast">
+
+    </gradient>
+     <corners android:radius="5dp" />
+
+    <stroke android:color="@color/white" android:width="2dp"/>
+
+</shape>

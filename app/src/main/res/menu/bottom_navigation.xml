@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/customListsFragment"
+        android:icon="@drawable/add_box_24"
+        android:title="Custom Lists" />
+
+    <item
+        android:id="@+id/onlineListFragment"
+        android:icon="@drawable/internet_24"
+        android:title="Online Lists" />
+
+    <item
+        android:id="@+id/sharedListsFragment"
+        android:icon="@drawable/share_24"
+        android:title="Shared Lists" />
+
+</menu>

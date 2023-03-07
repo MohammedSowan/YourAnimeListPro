@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_control"
+    app:startDestination="@id/onlineListFragment">
+
+    <fragment
+        android:id="@+id/customListsFragment"
+        android:name="com.example.youranimelist2pro.fragments.CustomListsFragment"
+        android:label="CustomListsFragment" >
+        <action
+            android:id="@+id/action_customListsFragment_to_addDBAnimeFragment"
+            app:destination="@id/addDBAnimeFragment" />
+        <action
+            android:id="@+id/action_customListsFragment_to_animeDetailsFragment"
+            app:destination="@id/animeDetailsFragment" />
+        <action
+            android:id="@+id/action_customListsFragment_to_uploadListFragment"
+            app:destination="@id/uploadListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onlineListFragment"
+        android:name="com.example.youranimelist2pro.fragments.OnlineListFragment"
+        android:label="OnlineListFragment" >
+        <action
+            android:id="@+id/action_onlineListFragment_to_animeDetailsFragment"
+            app:destination="@id/animeDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sharedListsFragment"
+        android:name="com.example.youranimelist2pro.fragments.SharedListsFragment"
+        android:label="SharedListsFragment" >
+        <action
+            android:id="@+id/action_sharedListsFragment_to_displayListFragment"
+            app:destination="@id/displayListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addDBAnimeFragment"
+        android:name="com.example.youranimelist2pro.fragments.addDBAnimeFragment"
+        android:label="addDBAnimeFragment" >
+        <action
+            android:id="@+id/action_addDBAnimeFragment_to_customListsFragment"
+            app:destination="@id/customListsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/animeDetailsFragment"
+        android:name="com.example.youranimelist2pro.fragments.AnimeDetailsFragment"
+        android:label="AnimeDetailsFragment" />
+    <fragment
+        android:id="@+id/uploadListFragment"
+        android:name="com.example.youranimelist2pro.fragments.UploadListFragment"
+        android:label="UploadListFragment" >
+        <action
+            android:id="@+id/action_uploadListFragment_to_customListsFragment"
+            app:destination="@id/customListsFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/displayListFragment"
+        android:name="com.example.youranimelist2pro.fragments.DisplayListFragment"
+        android:label="DisplayListFragment" >
+        <action
+            android:id="@+id/action_displayListFragment_to_animeDetailsFragment"
+            app:destination="@id/animeDetailsFragment" />
+    </fragment>
+</navigation>

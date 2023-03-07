@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "640912682011",
+    "firebase_url": "https://animeproject-c9c7a-default-rtdb.firebaseio.com",
+    "project_id": "animeproject-c9c7a",
+    "storage_bucket": "animeproject-c9c7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640912682011:android:f1235de31e2d159ced5cbe",
+        "android_client_info": {
+          "package_name": "com.example.storeapptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640912682011-ridk6keg2o9h5gr3qfj4g87ajhim8hki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMZZc_4iFcP9Tecra_MiwrVvaax7_2Fm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640912682011-ridk6keg2o9h5gr3qfj4g87ajhim8hki.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "640912682011-b3j5cfkqumad8bh8k1bvo37p2afho2tc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "yes.FirebaseTest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640912682011:android:ea027236d18e7009ed5cbe",
+        "android_client_info": {
+          "package_name": "com.example.youranimelist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640912682011-ridk6keg2o9h5gr3qfj4g87ajhim8hki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMZZc_4iFcP9Tecra_MiwrVvaax7_2Fm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640912682011-ridk6keg2o9h5gr3qfj4g87ajhim8hki.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "640912682011-b3j5cfkqumad8bh8k1bvo37p2afho2tc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "yes.FirebaseTest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640912682011:android:cec85df91ff4cf3aed5cbe",
+        "android_client_info": {
+          "package_name": "com.example.youranimelist2pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640912682011-13nrt8dkanccm39bsjn4cg8l90v2fvj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.youranimelist2pro",
+            "certificate_hash": "f406bc4970db4c219242ff9ce2b69fcc0a8c7ee9"
+          }
+        },
+        {
+          "client_id": "640912682011-ridk6keg2o9h5gr3qfj4g87ajhim8hki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMZZc_4iFcP9Tecra_MiwrVvaax7_2Fm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640912682011-ridk6keg2o9h5gr3qfj4g87ajhim8hki.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "640912682011-b3j5cfkqumad8bh8k1bvo37p2afho2tc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "yes.FirebaseTest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

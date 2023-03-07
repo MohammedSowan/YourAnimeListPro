@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#3B3750"
+    >
+
+    <ImageButton
+        android:id="@+id/returnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/baseline_keyboard_backspace_25"
+        android:src="@drawable/baseline_keyboard_backspace_25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/AnimeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="24dp"
+        android:background="#A6FFFFFF"
+        android:gravity="center_horizontal"
+        android:hint="Anime title"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/returnButton" />
+
+    <EditText
+
+        android:id="@+id/animeEpisodes"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:background="#A6FFFFFF"
+        android:gravity="center_horizontal"
+        android:hint="Episodes"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/animeRating"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AnimeTitle" />
+
+    <EditText
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:hint="Rating/10"
+        android:background="#A6FFFFFF"
+
+        android:gravity="center_horizontal"
+        android:id="@+id/animeRating"
+        app:layout_constraintStart_toEndOf="@+id/animeEpisodes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AnimeTitle"
+        android:layout_width="190dp"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="#A6FFFFFF"
+        android:hint="Description"
+        android:gravity="center_horizontal"
+        android:id="@+id/animeDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animeEpisodes"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"/>
+
+    <EditText
+        android:id="@+id/animeGenre"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="8dp"
+        android:background="#A6FFFFFF"
+        android:gravity="center_horizontal"
+        android:hint="Genre"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animeDescription" />
+
+    <EditText
+        android:id="@+id/animeImg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="8dp"
+        android:background="#A6FFFFFF"
+        android:gravity="center_horizontal"
+        android:hint="Img URL"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animeGenre" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAddAnime"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Add an Anime"
+        app:layout_constraintTop_toBottomOf="@+id/animeImg"
+        tools:layout_editor_absoluteX="15dp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

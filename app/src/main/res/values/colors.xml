@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="AzurLaneFirst">#7F7FD5</color>
+    <color name="AzurLaneMid">#86A8E7</color>
+    <color name="AzurLaneLast">#91EAE4</color>
+
+    <color name="WiretapFirst">#8A2387</color>
+    <color name="WiretapMid">#E94057</color>
+    <color name="WiretapLast">#f27121</color>
+
+    <color name="PortraitFirst">#8e9eab</color>
+    <color name="PortraitLast">#eef2f3</color>
+
+    <color name="SteelGrayFirst">#1F1C2C</color>
+    <color name="SteelGrayLast">#928dab</color>
+
+    <color name="WitchingHourFirst">#c31432</color>
+    <color name="WitchingHourLastt">#240b36</color>
+
+
+</resources>

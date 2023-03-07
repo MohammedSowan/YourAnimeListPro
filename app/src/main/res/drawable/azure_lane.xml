@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient android:gradientRadius="50dp"
+
+        android:startColor="@color/AzurLaneFirst"
+        android:centerColor="@color/AzurLaneMid"
+        android:endColor="@color/AzurLaneLast">
+
+    </gradient>
+
+    <corners android:topLeftRadius="15dp"
+        android:topRightRadius="15dp" />
+
+</shape>
